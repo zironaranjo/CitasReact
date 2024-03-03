@@ -4,8 +4,15 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
+body {
+  /* Ruta a tu imagen de fondo */
+  background-image: url('./assets/presupuesto.png');
+  /* Color de fondo con opacidad */
+  background-color: rgba(38, 212, 154, 0.959); /* Blanco con opacidad del 80% */
+  /* Otras propiedades (como tamaño y posición) si es necesario */
+  background-size: cover;
+  background-position: center;
+}
 
 
 

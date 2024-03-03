@@ -13,9 +13,9 @@ const Listadopacientes = ({pacientes,setpaciente,eliminarPaciente}) => {
       <>
 
 <h2 className="font-black text-2xl text-center ">Listadopacientes</h2>
-      <p className="text-center  mt-5 mb-7 text-lg ">
+      <p className="text-center  mt-5 mb-7 text-xl">
         Administra tus {''}
-        <span className="text-indigo-600 font-bold mb-5 ">
+        <span className="text-black font-bold mb-5 ">
           Clientes y Citas
         </span>
       </p>
@@ -38,10 +38,10 @@ const Listadopacientes = ({pacientes,setpaciente,eliminarPaciente}) => {
 
           <>
    <h2 className="font-black text-2xl text-center ">No hay pacientes</h2>
-      <p className="text-center  mt-5 mb-7 text-lg ">
+      <p className="text-center font-bold  mt-5 mb-7 text-lg text-black">
         Comienza agregando pacientes {''}
-        <span className="text-indigo-600 font-bold mb-5 ">
-          apareceran en este lugar
+        <span className="text-black font-bold mb-5 ">
+          Apareceran en este lugar
         </span>
       </p>
 

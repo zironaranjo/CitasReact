@@ -103,13 +103,13 @@ return (
     <div className='md:w-1/2 lg:w-2/5 '>
       <h2 className='font-black text-2xl text-center'>CLIENTES</h2>
 
-      <p className='text-lg mt-5 text-center mb-7'>
+      <p className='text-lg mt-5 text-center mb-7 font-bold text-black'>
         Añade clientes y {''}
-        <span className='text-indigo-600 font-bold '>Administralos</span>
+        <span className='text-black font-bold text-2xl'>Administralos</span>
       </p>
       <form
       onSubmit={handleSubmit}
-      className='bg-white shadow-md rounded-lg py-10 px-5 mx-5'
+      className='bg-blue-400 shadow-md rounded-lg py-10 px-5 mx-5'
       >
 
        { error && <Error>
@@ -192,7 +192,7 @@ return (
 
         <input 
          type='submit'
-         className='bg-blue-500 w-full rounded-lg p-3 text-white uppercase font-bold hover:bg-indigo-700 cursor-pointer transition-shadow '
+         className='bg-black w-full rounded-lg p-3 text-white uppercase font-bold hover:bg-indigo-700 cursor-pointer transition-shadow '
          value={paciente.id ? 'Editar Paciente' : 'Agregar Paciente'}
         
         />
